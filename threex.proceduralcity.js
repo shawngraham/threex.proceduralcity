@@ -31,7 +31,7 @@ THREEx.ProceduralCity	= function(){
 		buildingMesh.position.x	= Math.floor( Math.random() * 200 - 100 ) * 10;
 		buildingMesh.position.z	= Math.floor( Math.random() * 200 - 100 ) * 10;
 		// put a random rotation
-		buildingMesh.rotation.y	= Math.random()*Math.PI*2;
+		// buildingMesh.rotation.y	= Math.random()*Math.PI*2;
 		// put a random scale
 		buildingMesh.scale.x	= Math.random() * Math.random() * Math.random() * Math.random() * 50 + 10;
 		buildingMesh.scale.y	= (Math.random() * Math.random() * Math.random() * buildingMesh.scale.x) * 8 + 8;
@@ -81,7 +81,7 @@ THREEx.ProceduralCity	= function(){
 		context.fillStyle	= '#ec730f';
 		context.fillRect( 0, 0, 32, 64 );
 		// draw the window rows - with a small noise to simulate light variations in each room
-		for( var y = 3; y < 128; y += 3 ){
+		for( var y = 2; y < 64; y += 2 ){
 			for( var x = 0; x < 32; x += 2 ){
 				var value	= Math.floor( Math.random() * 64 );
 				context.fillStyle = 'rgb(' + [value, value, value].join( ',' )  + ')';
