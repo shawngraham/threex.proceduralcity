@@ -78,7 +78,7 @@ THREEx.ProceduralCity	= function(){
 		canvas.height	= 64;
 		var context	= canvas.getContext( '2d' );
 		// plain it in white
-		context.fillStyle	= '#ffffff';
+		context.fillStyle	= '#ec730f';
 		context.fillRect( 0, 0, 32, 64 );
 		// draw the window rows - with a small noise to simulate light variations in each room
 		for( var y = 2; y < 64; y += 2 ){
