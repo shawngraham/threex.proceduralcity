@@ -81,7 +81,7 @@ THREEx.ProceduralCity	= function(){
 		context.fillStyle	= '#ec730f';
 		context.fillRect( 0, 0, 32, 64 );
 		// draw the window rows - with a small noise to simulate light variations in each room
-		for( var y = 3; y < 64; y += 2 ){
+		for( var y = 3; y < 128; y += 3 ){
 			for( var x = 0; x < 32; x += 2 ){
 				var value	= Math.floor( Math.random() * 64 );
 				context.fillStyle = 'rgb(' + [value, value, value].join( ',' )  + ')';
