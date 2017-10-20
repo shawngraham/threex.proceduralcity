@@ -34,8 +34,8 @@ THREEx.ProceduralCity	= function(){
 		buildingMesh.rotation.y	= Math.random()*Math.PI*2;
 		// put a random scale
 		buildingMesh.scale.x	= Math.random() * Math.random() * Math.random() * Math.random() * 50 + 10;
-		buildingMesh.scale.y	= (Math.random() * Math.random() * Math.random() * buildingMesh.scale.x) * 1 + 1;
-		buildingMesh.scale.z	= buildingMesh.scale.x
+		buildingMesh.scale.y	= (Math.random() * Math.random() * Math.random() * buildingMesh.scale.x) * 8 + 8;
+		buildingMesh.scale.z	= 2 //buildingMesh.scale.x
 
 		// establish the base color for the buildingMesh
 		var value	= 1 - Math.random() * Math.random();
