@@ -39,7 +39,7 @@ THREEx.ProceduralCity	= function(){
 
 		// establish the base color for the buildingMesh
 		var value	= 1 - Math.random() * Math.random();
-		var baseColor	= new THREE.Color().setRGB( value + Math.random() * 0.1, value, value + Math.random() * 0.1 );
+		var baseColor	= new THREE.Color().setRGB ( 198, 83, 26 );//( value + Math.random() * 0.1, value, value + Math.random() * 0.1 );
 		// set topColor/bottom vertexColors as adjustement of baseColor
 		var topColor	= baseColor.clone().multiply( light );
 		var bottomColor	= baseColor.clone().multiply( shadow );
